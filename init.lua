@@ -50,7 +50,7 @@ vim.opt.hlsearch = true
 vim.opt.signcolumn = 'yes'
 vim.opt.isfname:append '@-@'
 
-vim.opt.colorcolumn = '80'
+vim.opt.colorcolumn = '80,120,160'
 
 -- Decrease update time
 vim.opt.updatetime = 250
@@ -76,7 +76,7 @@ vim.opt.inccommand = 'split'
 vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 22
+vim.opt.scrolloff = 999
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
